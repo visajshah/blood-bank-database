@@ -1,0 +1,12 @@
+COPY BLOOD_BANK.ADMIN(NAME, ADDRESS, MOBILE, USERNAME, PASSWORD) FROM 'c:/temp/blood_bank/Admin.csv' DELIMITER ',' CSV HEADER;
+COPY BLOOD_BANK.DONOR(USERNAME, PASSWORD, NAME, ADDRESS, MOBILE) FROM 'c:/temp/blood_bank/Donor.csv' DELIMITER ',' CSV HEADER;
+COPY BLOOD_BANK.DOCTOR(USERNAME, PASSWORD, NAME, ADDRESS, MOBILE) FROM 'c:/temp/blood_bank/Doctor.csv' DELIMITER ',' CSV HEADER;
+COPY BLOOD_BANK.PATIENT(NAME, ADDRESS, MOBILE) FROM 'c:/temp/blood_bank/Patient.csv' DELIMITER ',' CSV HEADER;
+COPY BLOOD_BANK.staff(username, password, position, date_of_joining, name, address, mobile, salary) FROM 'c:/temp/blood_bank/staff.csv' DELIMITER ',' CSV HEADER;
+COPY blood_bank.item(name, type, item_count, price) FROM 'c:/temp/blood_bank/Item.csv' DELIMITER ',' CSV HEADER;
+COPY blood_bank.donation_camp(event_date, location, start_time, end_time) FROM 'c:/temp/blood_bank/Camp.csv' DELIMITER ',' CSV HEADER;
+COPY blood_bank.inventory(camp_id, item_id, count) FROM 'c:/temp/blood_bank/Inventory.csv' DELIMITER ',' CSV HEADER;
+COPY blood_bank.team(staff_id, camp_id) FROM 'c:/temp/blood_bank/Team.csv' DELIMITER ',' CSV HEADER;
+COPY blood_bank.blood_packet(capacity, camp_id, donor_id, usage_type) FROM 'c:/temp/blood_bank/Packet.csv' DELIMITER ',' CSV HEADER;
+COPY blood_bank.blood_report(packet_id, platelets, haemoglobin, sugar_level, wbc_count, rbc_count, blood_group, time_stamp) FROM 'c:/temp/blood_bank/Report.csv' DELIMITER ',' CSV HEADER;
+COPY blood_bank.transfusion(packet_id, patient_id, doctor_id,time_stamp) FROM 'c:/temp/blood_bank/Transfusion.csv' DELIMITER ',' CSV HEADER;
