@@ -1,0 +1,14 @@
+Name,Type,Item_count,Price
+Gloves,Plastic,600,20
+Gloves,Rubber,100,40
+Syringe,5mm,2300,50
+Syringe,10mm,1500,75
+Injection,10ml,2000,30
+Injection,50ml,1000,60
+Blood_pouch,100ml,200,300
+Blood_pouch,200ml,300,400
+Blood_pouch,300ml,500,600
+Cotton,Medicinal,38,60
+Lab_Coat,White,20,2000
+Sphygmomanometer,Digital,10,5000
+Stethoscope,Dual Head,10,500
