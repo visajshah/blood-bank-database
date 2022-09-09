@@ -1,5 +1,5 @@
 # blood-bank-database
-A queryable SQL-based database for use in blood banks.
+A SQL-based database for use in blood banks.
 
 Developed using PostgreSQL.
 
